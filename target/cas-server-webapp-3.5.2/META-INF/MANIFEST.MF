@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Jasig CAS Web Application
+Implementation-Version: 3.5.2
+Built-By: gaoyounan
+Specification-Title: Jasig CAS Web Application
+Implementation-Vendor-Id: org.jasig.cas
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.6.0_65-b14
+Specification-Version: 3.5.2
+
