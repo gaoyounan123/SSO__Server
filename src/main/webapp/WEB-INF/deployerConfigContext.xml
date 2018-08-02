@@ -145,7 +145,7 @@
 
 				<bean class="org.jasig.cas.adaptors.jdbc.QueryDatabaseAuthenticationHandler">
 					<property name="dataSource" ref="dataSource" />
-					<property name="sql" value="select USR_PASSWORD from USER where lower(USR_NAME) = lower(?)" />
+					<property name="sql" value="select USR_PASSWORD from USER where lower(USR_ID) = lower(?)" />
 					<property name="passwordEncoder" ref="MD5PasswordEncoder"></property>
 				</bean>
 
