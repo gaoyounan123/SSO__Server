@@ -33,7 +33,7 @@
                 <!-- <spring:message code="screen.welcome.welcome" /> -->
                     <h2><spring:message code="screen.welcome.instructions" /></h2>
                     <div class="row fl-controls-left">
-                        <label for="username" class="fl-label"><spring:message code="screen.welcome.label.netid" /></label>
+                        <label for="username" class="fl-label">Email:</label>
 						<c:if test="${not empty sessionScope.openIdLocalId}">
 						<strong>${sessionScope.openIdLocalId}</strong>
 						<input type="hidden" id="username" name="username" value="${sessionScope.openIdLocalId}" />
